@@ -1,0 +1,34 @@
+{
+  "name": "koa-v0.2",
+  "version": "0.2.0",
+  "description": "Api rest con koa, typeorm.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start/server.js",
+    "dev": "nodemon -r ./config/dotenv.js start/server.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "node",
+    "koa",
+    "typeorm"
+  ],
+  "author": "Kenny Callado",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.0"
+  }
+}
